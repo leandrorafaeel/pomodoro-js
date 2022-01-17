@@ -4,7 +4,7 @@
 
 </div>
 
-Um Pomodoro sim ples criado em Javascript puro, esse projeto tem o ojetivo de colocar em prática meus conhecimentos em Javascript.
+Um Pomodoro simples criado em Javascript puro. Esse projeto tem o ojetivo de colocar em prática meus conhecimentos em Javascript.
 
 * Demo: [Clique aqui para ver esse projeto](https://leandrorafaeel.github.io/pomodoro-js/)
 
@@ -15,7 +15,7 @@ Um Pomodoro sim ples criado em Javascript puro, esse projeto tem o ojetivo de co
 
 ## Dark Mode:
 <div align="left">
-    <img src="assets/img/darkmode-light.png" width="100%">
+    <img src="assets/img/darkmode.png" width="100%">
 </div>
 
 ## Tecnologias:
