@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pomodoro JS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Leandro Rafael">
+        <!-- favicon -->
+        <link rel="manifest" href="site.webmanifest">
+        <!-- css style -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+        <!-- google fonts -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;700&display=swap">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quantico&display=swap">
+    </head>
+    <body>  
+        <div id="container">
+            <h1>Pomodoro JS </h1>
+            <div id="principal">
+                <section id="pomodoro">
+                    <div class="pomodoro-contagem"> 
+                        <h3>Pomodoro</h3>
+                        <p><span class="pomo-min">25</span>:<span class="pomo-seg">00</span></p>
+                    </div>
+                    
+                    <div class="ciclos">
+                        <h3>Ciclos</h3>
+                        <p class="pomo-ciclos">0</p>
+                    </div>
+                    
+                    <div class="descanso">
+                        <h3>Descanso</h3>
+                        <p><span class="descanso-min">05</span>:<span class="descanso-seg">00</span></p>
+                    </div>
+                </section>
+                    
+                <ul class="controles">
+                    <li class="btnplay"><i class="fas fa-play"></i></li>
+                    <li class="btnpause"><i class="fas fa-pause"></i></li>
+                    <li class="btnstop"><i class="fas fa-stop"></i></li>
+                </ul>
+
+                <div class="dark-mode">
+                    <button class="btn-dark">Dark Mode</button>
+                </div> 
+            </div>
+           
+            <footer id="rodape">
+                <p>&copy;<span class="ano"></span> Copyright - Desenvolvido por <a href="https://www.instagram.com/leandro.rafaeel/" target="_blank">Leandro Rafael</a></p>
+            </footer>
+        </div>
+        <!-- javascript -->
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
